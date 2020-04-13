@@ -1,6 +1,6 @@
 # Package threads.js in a library
 
-* `lib` is built with parcel for NodeJS (CJS module) and CDN delivery (UMD ? IIFE ?)
+* `lib` is built with parcel for NodeJS (CJS module) and for browsers CDN delivery
 * `main-parcel` works as expected (with and without the `threads/register` !?) - (resolved from `package.json:module`)
 * `main-webpack` works as expected if we remove `threads/register` from `lib` and import the `ThreadsPlugin` - (resolved from `package.json:module`)
 * `main-node` works as expected with the parcel CJS build (resolved from `package.json:main`)
